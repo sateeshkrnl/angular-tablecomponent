@@ -74,15 +74,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "karmaConfig": "src/karma.conf.js",
-            "main": "src/test.ts",
             "polyfills": [
               "zone.js",
-              ".zone.js/testing"
+              "zone.js/testing"
             ],
             "scripts": [],
             "styles": [
-              "styles.css"
+              "src/global_styles.css"
             ],
             "tsConfig": "src/tsconfig.spec.json"
           }
